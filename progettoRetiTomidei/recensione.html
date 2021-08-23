@@ -1,0 +1,73 @@
+
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                margin: 0;
+            }
+            table {width:70%;}
+            img {
+                max-width:300;
+                max-height:200px;
+                width:auto;
+            }
+            td {width: 33%;}
+            p {text-align:justify;}
+            td {
+                padding: 20px;
+                text-align: center;
+            }
+            .topnav {
+  		        overflow: hidden;
+  		        background-color: #333;
+  		    }
+            .topnav a {
+  		        float: left;
+  		        color: #f2f2f2;
+  		        text-align: center;
+  		        padding: 14px 16px;
+  		        text-decoration: none;
+  		        font-size: 17px;
+  		    }        
+  		    .topnav a:hover {
+  		        background-color: #ddd;
+  		        color: black;
+  		    }        
+  		    .topnav a.active {
+  		        background-color: #4CAF50;
+  		        color: white;
+  		    }
+        </style>
+    </head>
+    <body>
+        <title>Pasolini newspaper</title>
+ <br><br><h1>Recensione</h1> 
+        <br>
+        <br>
+        <br>
+        <div class="topnav">
+            <a class="active" href="http://127.0.0.1:80">Home</a>
+            <a href="http://127.0.0.1:80/FSE.html">FSE</a>
+            <a href="http://127.0.0.1:80/pronto_soccorso.html">Pronto soccorso</a>
+  		    <a href="http://127.0.0.1:80/refresh" style="float: right">Aggiorna contenuti</a>
+            <a href="http://127.0.0.1:80/info.pdf" download="0b.intro.pdf" style="float: right">Download info pdf</a>
+            <a href="http://127.0.0.1:80/recensione.html" style="float: right">Recensione</a>
+            <a href="http://127.0.0.1:80/accedi_servizi.html" style="float: right">Accedi</a>
+  		</div>
+        <br><br>
+        <table align="center">
+</table>
+        <br><br>
+		<form action="http://127.0.0.1:80/recensione" method="post" style="text-align: center;">
+		  <h1><strong>SCRIVI UNA RECENSIONE</strong></h1><br>
+		  <label for="name">Cognome Nome:</label><br>
+		  <input type="text" id="name" name="name"><br>
+		  <label for="email">Email:</label><br>
+		  <input type="text" id="email" name="email"><br>
+		  <label for="messaggio">Messaggio</label><br><textarea name="messaggio" id="messaggio" rows="2"></textarea><br><br>
+		  <input type="submit" value="Invia">
+		</form>
+		<br>
+    </body>
+</html>
